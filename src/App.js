@@ -22,7 +22,7 @@ const App = () => {
       id: "s2",
       nameStudent: "Emiliano Mateo",
       pfp: photo2,
-      major: "Médicos",
+      major: "Engineer",
       age: 20,
     },
     {
