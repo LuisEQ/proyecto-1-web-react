@@ -1,0 +1,14 @@
+.Students {
+  padding: 1rem;
+  background-color: rgb(252, 252, 252);
+  margin: 3rem auto;
+  width: 50rem;
+  max-width: 95%;
+
+  display: grid;
+  place-items: center;
+  justify-items: center;
+
+  grid-template-columns: repeat(2,500px);
+
+}
