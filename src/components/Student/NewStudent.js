@@ -1,14 +1,19 @@
 import React from "react";
 
+import StudentsForm from "./StudentsFom";
+
 
 const NewStudent = (props) => {
-  const studentData = {
-    id: Math.random().toString(),
+  const saveStudentInfoHandler = (enteredStudentInfo) => {
+    const studentData = {
+      id: Math.random().toString(),
+    };
+    props.onAddStudent(studentData);
   };
-  props.onAddStudent(studentData);
 
   return (
     <div className="new-student">
+      <StudentsForm onSaveStudentInfo={saveStudentInfoHandler} />
     </div>
   );
 };
