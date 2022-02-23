@@ -35,8 +35,8 @@ const StudentForm = (props) => {
     };
 
     return (
-        <form onSubmit={submitHandler}>
-            <div>
+        <form onSubmit={submitHandler} className="StudentsForm">
+            <div className="StudentsInfo">
                 <div>
                     <label>Nombre estudiante</label>
                     <input

@@ -1,0 +1,18 @@
+.StudentsForm{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.StudentsInfo{
+    display: flex;
+    flex-direction: column;
+}
+.StudentsInfo div{
+    margin: .3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
