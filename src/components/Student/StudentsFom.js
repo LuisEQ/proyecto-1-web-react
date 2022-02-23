@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import "./studentForm.css";
+
 const StudentForm = (props) => {
     const [enteredName, setName] = useState("");
     const [enteredAge, setAge] = useState("");
