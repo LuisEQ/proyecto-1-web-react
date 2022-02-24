@@ -6,6 +6,7 @@ const StudentForm = (props) => {
     const [enteredName, setName] = useState("");
     const [enteredAge, setAge] = useState("");
     const [enteredMajor, setMajor] = useState("");
+    const [enteredPhoto, setPhoto] = useState("");
 
     const nameHandler = (event) => {
         setName(event.target.value);
@@ -17,6 +18,9 @@ const StudentForm = (props) => {
 
     const majorHandler = (event) => {
         setMajor(event.target.value);
+    };
+    const photoHandler = (event) => {
+        setPhoto(event.target.file);
     };
 
     const submitHandler = (event) => {
@@ -68,8 +72,8 @@ const StudentForm = (props) => {
                     <label>Imagen de perfil</label>
                     <input
                         type="file"
-                        // value={enteredMajor}
-                        onChange={majorHandler}
+                        value={enteredPhoto}
+                        onChange={photoHandler}
                     />
                 </div>
             </div>

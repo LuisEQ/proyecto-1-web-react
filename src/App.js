@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import NewStudent from "./components/Student/NewStudent";
 import Students from "./components/Student/Students";
@@ -40,7 +40,6 @@ const App = () => {
       age: 20,
     },
   ];
-
   const addStudentHandler = (student) => {
     console.log("In App.js");
     console.log(student);
