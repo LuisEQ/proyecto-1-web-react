@@ -5,6 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    flex: 1;
 }
 .StudentsInfo{
     display: flex;

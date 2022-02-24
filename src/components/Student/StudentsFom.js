@@ -64,6 +64,14 @@ const StudentForm = (props) => {
                         onChange={majorHandler}
                     />
                 </div>
+                <div>
+                    <label>Imagen de perfil</label>
+                    <input
+                        type="file"
+                        // value={enteredMajor}
+                        onChange={majorHandler}
+                    />
+                </div>
             </div>
             <div>
                 <button type="submit">Nuevo estudiante</button>
