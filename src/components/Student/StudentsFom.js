@@ -42,7 +42,10 @@ const StudentForm = (props) => {
         <form onSubmit={submitHandler} className="StudentsForm">
             <div className="StudentsInfo">
                 <div>
-                    <label>Nombre estudiante</label>
+                    <label className="title">Agregar nuevos estudiantes</label>
+                </div>
+                <div>
+                    <label className="font-form">Nombre estudiante</label>
                     <input
                         type="text"
                         value={enteredName}
@@ -50,7 +53,7 @@ const StudentForm = (props) => {
                     />
                 </div>
                 <div>
-                    <label>Edad</label>
+                    <label className="font-form">Edad</label>
                     <input
                         type="number"
                         min="1"
@@ -61,7 +64,7 @@ const StudentForm = (props) => {
                     />
                 </div>
                 <div>
-                    <label>Carrera</label>
+                    <label className="font-form">Carrera</label>
                     <input
                         type="text"
                         value={enteredMajor}
@@ -69,7 +72,7 @@ const StudentForm = (props) => {
                     />
                 </div>
                 <div>
-                    <label>Imagen de perfil</label>
+                    <label className="font-form">Imagen de perfil</label>
                     <input
                         type="file"
                         value={enteredPhoto}

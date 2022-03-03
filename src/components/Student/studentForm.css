@@ -1,11 +1,17 @@
 .StudentsForm{
-    display: flex;
+     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     flex: 1;
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 320px;
 }
 .StudentsInfo{
     display: flex;

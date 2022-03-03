@@ -9,6 +9,22 @@
   border-radius: 8px;
   background-color: #67e2eb;
 }
+.title{
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.font-form{
+  color: #b1b1d1;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
 .student-o__description {
   display: flex;
   flex-direction: column;
@@ -34,6 +50,9 @@
   color: black;
   padding: 0.5rem;
   border-radius: 5px;
+}
+.StudentsInfo label{
+  margin-bottom: .5rem;
 }
 
 @media (min-width: 580px) {
