@@ -17,22 +17,24 @@ const Students = (props) => {
 
   return (
     <div>
-      <Card className="students">
-        <StudentFilter
-          selected={filteredMajor}
-          onChangeFilter={filterChangeHandler}
-        />
-        {filteredStudents.map((student) => (
-          <StudentO
-            key={student.id}
-            nameStudent={student.nameStudent}
-            pfp={student.pfp}
-            age={student.age}
-            major={student.major}
-          />
-        ))}
+      <StudentFilter
+        selected={filteredMajor}
+        onChangeFilter={filterChangeHandler}
+      />
+      <div>
+        <Card className="students">
+          {filteredStudents.map((student) => (
+            <StudentO
+              key={student.id}
+              nameStudent={student.nameStudent}
+              pfp={student.pfp}
+              age={student.age}
+              major={student.major}
+            />
+          ))}
 
-      </Card>
+        </Card>
+      </div>
     </div>
   );
 };
