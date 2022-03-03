@@ -6,6 +6,7 @@ import StudentsForm from "./StudentsFom";
 const NewStudent = (props) => {
   const saveStudentInfoHandler = (enteredStudentInfo) => {
     const studentData = {
+      ...enteredStudentInfo,
       id: Math.random().toString(),
     };
     props.onAddStudent(studentData);
