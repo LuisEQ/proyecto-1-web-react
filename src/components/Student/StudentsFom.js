@@ -81,7 +81,7 @@ const StudentForm = (props) => {
                 </div>
             </div>
             <div>
-                <button type="submit">Nuevo estudiante</button>
+                <button type="submit" className="buttonNewStudent">Nuevo estudiante</button>
             </div>
         </form>
     );

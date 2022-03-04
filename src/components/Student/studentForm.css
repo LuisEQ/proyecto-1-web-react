@@ -24,3 +24,13 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+.buttonNewStudent{
+    background-color: #EBEDF2;
+    border: #4B50BF;
+    border-radius: .5rem;
+    margin: auto;
+}
+.buttonNewStudent:hover{
+    background-color: #231773;
+    color: #EBEDF2;
+}
