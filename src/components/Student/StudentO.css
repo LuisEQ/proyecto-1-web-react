@@ -1,13 +1,12 @@
 .student-o {
   display: flex;
   flex-direction: row;
-  flex: 1;
 
-  padding: 0.5rem;
-  margin: 3rem 0;
-  
+  padding: 1rem;
+  margin: 2rem 0;
+  margin-right: auto;
   border-radius: 8px;
-  background-color: #ACB0F2;
+  background-color: #6E30F2;
 }
 .title{
   color: #eee;
@@ -21,8 +20,6 @@
   font-family: sans-serif;
   left: 20px;
   line-height: 14px;
-  transform-origin: 0 50%;
-  transition: transform 200ms, color 200ms;
   top: 20px;
 }
 .student-o__description {

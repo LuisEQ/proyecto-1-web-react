@@ -1,14 +1,19 @@
 .students {
   padding: 1rem;
   background-color: #EBEDF2;
-  margin: 3rem auto;
-  width: 50rem;
-  max-width: 95%;
-
+  width: 100rem;
+  height: 50rem;
+/* 
   display: grid;
   place-items: center;
   justify-items: center;
+  
+  margin: 3rem auto;
 
-  grid-template-columns: repeat(2,500px);
-
+  grid-template-columns: repeat(2,500px); */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
 }

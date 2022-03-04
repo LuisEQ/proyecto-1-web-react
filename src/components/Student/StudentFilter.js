@@ -8,8 +8,8 @@ const StudentFilter = (props) => {
     return (
         <div>
             <div>
-                <label>Filtrar por carrera</label>
-                <select value={props.selected} onChange={dropdownChangeHandler}>
+                <label className="labelMajorFilter">Filtrar por carrera</label>
+                <select value={props.selected} onChange={dropdownChangeHandler} className="buttonMajor">
                     <option value="Engineer">Ingeniería</option>
                     <option value="Medicina">Medicina</option>
                     <option value="Programacion">Programación</option>
