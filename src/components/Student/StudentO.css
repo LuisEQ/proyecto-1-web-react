@@ -31,7 +31,7 @@
 .student-o__pfp{
   max-width: 250px;
   max-height: 100px;
-  border-radius: 20px;
+  border-radius: 8px;
   display: flex;
 }
 .student-o h2 {
